@@ -8,10 +8,51 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.heyhuyen.pawrent.MainActivity">
+    tools:context="com.heyhuyen.pawrent.activities.MainActivity">
 
     <TextView
+        android:id="@+id/tvUsername"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        tools:text="human" />
+
+    <TextView
+        android:id="@+id/tvEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvUsername"
+        tools:text="human@pawrent.com" />
+
+    <TextView
+        android:id="@+id/tvPhotoUrl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvEmail"
+        tools:text="photo url" />
+
+    <TextView
+        android:id="@+id/tvUid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvPhotoUrl"
+        tools:text="uid" />
+
+    <Button
+        android:id="@+id/btnLogout"
+        android:text="@string/logout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvUid"
+        android:onClick="logout" />
+
+    <Button
+        android:id="@+id/btnDeleteAccount"
+        android:text="@string/deleteAccount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvUid"
+        android:layout_toEndOf="@id/btnLogout"
+        android:layout_toRightOf="@id/btnLogout"
+        android:onClick="deleteAccount" />
+
 </RelativeLayout>

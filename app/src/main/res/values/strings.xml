@@ -1,3 +1,17 @@
 <resources>
     <string name="app_name">Pawrent</string>
+
+    <!-- Keys -->
+    <string name="facebook_app_id">1856199494663959</string>
+    <string name="fb_login_protocol_scheme">fb1856199494663959</string>
+
+    <!-- Login and Account Management -->
+    <string name="email">Email</string>
+    <string name="email_hint">human@pawrent.com</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="signupEmail">Sign up with Email</string>
+    <string name="signup">Sign up</string>
+    <string name="logout">Logout</string>
+    <string name="deleteAccount">Delete Account</string>
 </resources>

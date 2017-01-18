@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "921788631339",
+    "firebase_url": "https://pawrent-39353.firebaseio.com",
+    "project_id": "pawrent-39353",
+    "storage_bucket": "pawrent-39353.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:921788631339:android:a1ec5049a7d808e8",
+        "android_client_info": {
+          "package_name": "com.heyhuyen.pawrent"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "921788631339-ek7n6p8cfv50nk2eoir19b1grh5ul5j0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.heyhuyen.pawrent",
+            "certificate_hash": "2FD4EAE381D3940DBBE94D57BE0CA42C350D0CCE"
+          }
+        },
+        {
+          "client_id": "921788631339-4brbt6d41pq2c8un82r5o9nddai7qbhi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD8mrWReJ_Cr-muGRyhIrOIfI4KVoEB8Mo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "921788631339-4brbt6d41pq2c8un82r5o9nddai7qbhi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

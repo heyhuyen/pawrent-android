@@ -15,3 +15,10 @@
 #-keepclassmembers class fqcn.of.javascript.interface.for.webview {
 #   public *;
 #}
+
+
+# When using Firebase Authentication in your app along with ProGuard
+# add the following flags to your proguard-rules.pro file to ensure
+# that your app works correctly:
+-keepattributes Signature
+-keepattributes *Annotation*
